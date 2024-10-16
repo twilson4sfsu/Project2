@@ -11,24 +11,18 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: #111116;
-    
 }
 h1 {
-    font-size: 150px;
     font-family: 'pixelOne';
+    color: #ff2be1;
+    font-size: 150px;
 }
 h2 {
     color: #4ea93d;
     font-family: 'pixelTwo';
     
 }
-.intro {
-    color: #ff2be1;
-    text-align: center;
-    font-size: x-large;
-}
-a {
-    text-decoration: #ff2be1;
-    text-decoration: none;
-    font-family: 'pixelTwo';
+span {
+    font-size: 50px;
+    color:#ff2be1;
 }
