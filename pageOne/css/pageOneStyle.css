@@ -16,13 +16,57 @@ h1 {
     font-family: 'pixelOne';
     color: #ff2be1;
     font-size: 150px;
+    margin-right: 200px;
 }
 h2 {
     color: #4ea93d;
     font-family: 'pixelTwo';
+    margin-top: auto;
     
 }
 span {
     font-size: 50px;
     color:#ff2be1;
+}
+a {
+    text-decoration: none;
+    color: #ff2be1;
+}
+.roughWaters {
+    color: #4ea93d;
+    font-family: 'pixelTwo';
+
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes yuppers {
+    from {
+     opacity: 0;
+ }
+    
+    to {
+     opacity: 1;
+ }
+ }
+ #Yup {
+     animation-name: yuppers;
+     animation-duration: 1s;
+     animation-iteration-count: 1;
+ }
+
+ @keyframes jump {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translate(-25px);
+    }
+ }
+ #oneUp {
+    animation-name: jump;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
 }

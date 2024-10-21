@@ -14,21 +14,51 @@ body {
     
 }
 h1 {
-    font-size: 150px;
+    font-size: 200px;
     font-family: 'pixelOne';
 }
 h2 {
     color: #4ea93d;
     font-family: 'pixelTwo';
+    font-size: 50px;
+    margin-top: -30px;
     
 }
 .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #ff2be1;
     text-align: center;
-    font-size: x-large;
+    margin-top: -100px;
+    
 }
 a {
-    text-decoration: #ff2be1;
+    color: #ff2be1;
     text-decoration: none;
-    font-family: 'pixelTwo';
+    
+    text-align: center;
+}
+#play {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: "pixelOne";
+    text-align: center;
+    
+}
+
+@keyframes playFlash {
+   from {
+    opacity: 0;
+}
+   
+   to {
+    opacity: 1;
+}
+}
+.playButton {
+    animation-name: playFlash;
+    animation-duration: 0.75s;
+    animation-iteration-count: 100;
 }
