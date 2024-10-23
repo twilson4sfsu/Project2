@@ -24,9 +24,10 @@ h2 {
     margin-top: auto;
     
 }
-span {
+#oneUp {
     font-size: 50px;
     color:#ff2be1;
+    display: inline-flex;   
 }
 a {
     text-decoration: none;
@@ -44,29 +45,34 @@ a {
 
 @keyframes yuppers {
     from {
-     opacity: 0;
+     transform: scale(0,0);
  }
     
     to {
-     opacity: 1;
+     transform: scale(1,1);
  }
  }
  #Yup {
      animation-name: yuppers;
-     animation-duration: 1s;
+     animation-duration: 0.5s;
      animation-iteration-count: 1;
+     animation-timing-function: ease-in-out;
+     animation-fill-mode: both;
  }
 
  @keyframes jump {
     from {
-        transform: translateY(0);
+        transform: translateY(-45px);
     }
     to {
-        transform: translate(-25px);
+        transform: translateY(0);
     }
  }
  #oneUp {
     animation-name: jump;
-    animation-duration: 3s;
+    animation-duration: 0.5s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
+    
+
 }
