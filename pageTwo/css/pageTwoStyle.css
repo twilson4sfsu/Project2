@@ -17,3 +17,104 @@ h2 {
     font-family: 'pixelTwo';
     
 }
+a {
+    text-decoration: none;
+    color: #ff2be1;
+}
+/* typing animation from https://codepen.io/denic/pen/GRoOxbM */
+#lineOne {
+    width: 39ch;
+    animation: typing 2s steps(34), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'pixelTwo';
+    font-size: 2em;
+
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  #lineTwo {
+    width: 39ch;
+    animation: typing 2s steps(34) 3s, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'pixelTwo';
+    font-size: 2em;
+   
+
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  #lineThree {
+    width: 39ch;
+    animation: typing 2s steps(34) 6s, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'pixelTwo';
+    font-size: 2em;
+   
+
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  #lineFour {
+    width: 39ch;
+    animation: typing 2s steps(34) 9s, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'pixelTwo';
+    font-size: 2em;
+   
+
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  
